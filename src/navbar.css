@@ -1,0 +1,11 @@
+.navbar-header{
+    width: 100%;  
+}
+
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-brand{
+    margin-right: 0 !important;
+}

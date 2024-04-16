@@ -13,3 +13,38 @@ Feel free to visit and any comment is welcome
 We are entering US, EU and Japan. Message me if you are interested
 感谢
 thanks
+
+#env
+.env.production
+```
+#GENERATE_SOURCEMAP=false
+REACT_APP_API_URL = ---MASKED---
+REACT_APP_ANAYTICS_API_URL = ---MASKED---
+REACT_APP_SUANGUA_API_URL = ---MASKED---
+REACT_APP_XIAN_API_URL = ---MASKED---
+REACT_APP_IMG_URL = ---MASKED---
+GENERATE_SOURCEMAP = false
+REACT_APP_DEBUG_MODE = false
+```
+
+# Notice
+## token.js
+JWT is required. For JWT functionality, keep token.js in the same directory as app.js. 
+Example:
+```
+const token = {
+    jwt: '---MASKED---'
+}
+  
+export default token
+```
+## prompt.js
+prompt.js is prompt generator. keep prompt.js in the same directory as app.js. 
+Example:
+```
+const prompt = {
+    getDivinationPrompt: function(){...}
+}
+  
+export default prompt
+```

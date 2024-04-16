@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react-chatbot-kit-chat-container{
+  width:100%;
+}
+
+.react-chatbot-kit-chat-inner-container{
+  height:95vh;
+}
+
+.react-chatbot-kit-chat-message-container{
+  display: block;
+  overflow: auto; 
+  height: 100%;
+  min-height:95vh;
+  max-height: 95vh;
+}
+
+.react-chatbot-kit-chat-input-container{
+  position:sticky;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: whitepearl;
+}
+
+.App-link {
+  color: #404D4F;
+}
+
+.react-chatbot-kit-chat-bot-message {
+  background-color: #fcf5eb;
+  color:#404D4F;
+  margin-left: inherit;
+  width: inherit;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid #fcf5eb;
+}
+
+/* chat botton */
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #404D4F;
+  color:#404D4F;
+  border-bottom-right-radius: 0%;
+}
+
+.bottone {
+  background-color: gray;
+  /* padding: 5px 12px; */
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #404D4F; /* Green */
+  color: white;
+}
+
+.react-chatbot-kit-chat-bot-message span img{
+  width:30vw
+}
+
+.react-chatbot-kit-chat-bot-message span a{
+  color:#000000;
+}
+
+.react-chatbot-kit-chat-bot-message img{
+  width:100%;
+  border-radius:1%;
+}
+
+.rating-message{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.gua-container .react-chatbot-kit-chat-bot-message{
+  background-color: #ffffff;
+  border-color:#000000;
+  border-style: solid;
+  word-break: break-word;
+}
+
+.request-gua-btn{
+  background-color: #fcf5eb;
+  color:#404D4F;
+  width:fit-content;
+}
+
+.react-chatbot-kit-user-avatar-container{
+  background-color: #404D4F;
+}
+
+.react-chatbot-kit-chat-input-form .react-chatbot-kit-chat-input:focus{
+  outline:none;
+}
+
+.recommd-container a{
+  color:#404D4F;
+  text-decoration: none;
+}
+
+.react-chatbot-kit-chat-bot-message .sponsorship{
+  color:#afafaf;
+  font-size:0.85em;
+  float:right;
+}

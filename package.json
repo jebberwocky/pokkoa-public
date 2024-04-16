@@ -1,0 +1,64 @@
+{
+  "name": "chatbx",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.2.6",
+    "env-cmd": "^10.1.0",
+    "fetch": "^1.1.0",
+    "filepond": "^4.30.4",
+    "html-react-parser": "^3.0.9",
+    "i18next": "^23.10.1",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "i18next-http-backend": "^2.5.0",
+    "js-base64": "^3.7.5",
+    "mixpanel-browser": "^2.45.0",
+    "react": "^18.2.0",
+    "react-chatbot-kit": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "react-filepond": "^7.1.2",
+    "react-ga": "^3.3.1",
+    "react-ga4": "^2.1.0",
+    "react-i18next": "^14.1.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1",
+    "react-uuid": "^2.0.0",
+    "redux": "^4.2.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.remote.development react-scripts start",
+    "build": "env-cmd -f .env.production react-scripts build",
+    "gzipbuild": "env-cmd -f .env.production react-scripts build && gzipper compress --verbose ./build",
+    "vercel": "env-cmd -f .env.production react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.3",
+    "gzipper": "^7.2.0",
+    "react-bootstrap": "^2.10.2"
+  }
+}
