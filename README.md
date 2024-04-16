@@ -1,5 +1,5 @@
 # About the Pokkoa Project 
-![pokkoa qrcode](https://github.com/jebberwocky/pokkoa-public/blob/gua/pokkoa-qrcode.jpg?raw=true)
+![pokkoa qrcode](https://github.com/jebberwocky/pokkoa-public/blob/main/pokkoa-qrcode.jpg?raw=true)
 ## Intro
 ### 什么是 Pokkoa.cc ?
 ### What is Pokkoa.cc
@@ -13,3 +13,5 @@ Feel free to visit and any comment is welcome
 We are entering US, EU and Japan. Message me if you are interested
 感谢
 thanks
+#Source Code
+incoming 
