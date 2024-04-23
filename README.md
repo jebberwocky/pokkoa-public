@@ -1,3 +1,5 @@
+# NOTICE: Pokkoa project is under active development. This repository is updated periodically. Check back for updates every 2 to 4 weeks
+
 # About the Pokkoa Project 
 ![pokkoa qrcode](https://github.com/jebberwocky/pokkoa-public/blob/main/pokkoa-qrcode.jpg?raw=true)
 ## Intro
