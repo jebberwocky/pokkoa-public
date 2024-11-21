@@ -1,4 +1,4 @@
-### NOTICE: Pokkoa project is under active development. This repository is updated periodically. Check back for updates every 2 to 4 weeks
+## The Pokkoa project is undergoing exciting development! This means updates to this repository are temporarily paused. If you're curious about the code or have questions, feel free to reach out at contact@pokkoa.cc
 
 # About the Pokkoa Project 
 ![pokkoa qrcode](https://github.com/jebberwocky/pokkoa-public/blob/main/pokkoa-qrcode.jpg?raw=true)
